@@ -45,7 +45,7 @@ This project provides a Python wrapper for the PullPush Reddit API using FastAPI
 To run the API wrapper as a standalone server:
 
 ```
-uvicorn main:app --reload
+uvicorn pullpushapi:app --reload
 ```
 
 The server will start at `http://localhost:8000`. You can access the interactive documentation by navigating to `http://localhost:8000/docs` in your web browser.
@@ -100,8 +100,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Future Improvements
 
 In future releases, we plan to:
-- Add more endpoints to cover additional PullPush Reddit API functionality
-- Implement caching to improve performance
 - Add asynchronous support for better handling of concurrent requests
 
 ## Disclaimer
