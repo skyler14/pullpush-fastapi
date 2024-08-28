@@ -54,7 +54,7 @@ The server will start at `http://localhost:8000`. You can access the interactive
 
 To use the API wrapper in your Python application:
 
-1. Copy the `main.py` file to your project directory.
+1. Copy the `pullpushapi.py` file to your project directory.
 
 2. Import the necessary components in your script:
 
@@ -87,7 +87,7 @@ The API wrapper provides the following endpoints:
 - `GET /reddit/search/submission/`: Search for submissions
 - `GET /reddit/comment/ids/`: Get comment IDs for a submission
 
-Each endpoint corresponds to a function in the `main.py` file that you can use directly in your code.
+Each endpoint corresponds to a function in the `pullpushapi.py` file that you can use directly in your code.
 
 ## Contributing
 
